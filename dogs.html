@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dogs</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="stocks.html">Stocks</a></li>
+      <li><a href="dogs.html" class="active">Dogs</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h1>Dog Explorer</h1>
+
+    <!-- Carousel for random dog images -->
+    <div id="dog-carousel" class="slider">
+        <!-- Images will be dynamically inserted here -->
+      </div>
+      
+      
+    
+    <!-- Dog Breeds Section -->
+    <h2>Dog Breeds</h2>
+    <div id="breed-buttons">
+      <!-- Buttons dynamically inserted here -->
+    </div>
+    
+    <!-- Breed Information Section -->
+    <div id="breed-info" class="hidden">
+      <h3 id="breed-name"></h3>
+      <p id="breed-description"></p>
+      <p>Life Expectancy: <span id="breed-lifespan"></span></p>
+    </div>
+  </main>
+  
+  <div id="audio-instructions">
+    <h1>In this web page there are options to navigate using audio!</h1>
+    <p>Ensure your Mic is enabled to be able to use this feature</p>
+    <ul>
+      <li>
+        Navigate to a different page
+        <ul>
+          <li>Say: Navigate to *page name*</li>
+        </ul>
+      </li>
+      <li>
+        Change the Page Color
+        <ul>
+          <li>Say: Change the color to *color*</li>
+        </ul>
+      </li>
+      <li>
+        Say "Hello" back to you!
+        <ul>
+          <li>Say: Hello </li>
+        </ul>
+      </li> 
+    </ul>
+    <button id="audio-on">Turn On Listening</button>
+    <button id="audio-off">Turn Off Listening</button>
+  </div>
+  
+  
+  <script src="dogs.js"></script>
+</body>
+</html>
