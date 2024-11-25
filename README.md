@@ -1,5 +1,6 @@
 # Website-and-API-Testing
-Practice with HTML and Javascript with the goal of creating a website that combines the usage of multiple APIs. 
+Practice with HTML and Javascript with the goal of creating a website that combines the usage of multiple APIs. Presents a homepage with a random quote on load and functional audio commands. Stock page that allows the user to view popular stocks and how they are trending over the last 30, 60, or 90 days. Dog page that pulls 10 random images of dogs and provides a description, minimum and maximum life spans. 
+
 Uses the public APIs:
 https://zenquotes.io/   For the homepage random quote
 https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to  For the stock information
